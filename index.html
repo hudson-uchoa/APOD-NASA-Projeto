@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="./style.css" />
-    <title>Foto astronomica do dia</title>
+    <title>Foto astronômica do dia</title>
   </head>
   <body>
     <header>
@@ -13,23 +13,42 @@
       </div>
       <nav id="lista">
         <ul>
-          <li>Foto de Hoje</li>
+          <li><a id="ftHoje" href="#">Foto de Hoje</a></li>
           <li><a href="#">Buscar</a></li>
-          <li><a href="#">Sobre/Ajuda</a></li>
         </ul>
       </nav>
     </header>
     <main>
-      <h2>Foto Astronomica Do Dia</h2>
-      <input id="data" type="date" />
+      <div id="about">
+        <h2>
+          <span class="letras">F</span>oto
+          <span class="letras">A</span>stronômica <span class="letras">D</span>o
+          <span class="letras">D</span>ia
+        </h2>
+        <p>
+          Descubra mais sobre astronômica! Todo dia uma foto ou imagem nova com
+          uma breve explicação escrita por um astronomo profissional.<br />Escolha
+          uma data, ou clique em Foto de Hoje e descubra mais sobre o cosmos!
+        </p>
+
+        <input id="data" type="date" />
+        <button id="enviar">Ir!</button>
+      </div>
       <form>
-        <img src="" />
-        <h3></h3>
-        <p></p>
+        <h3 id="titulo"></h3>
+        <img
+          id="imagem"
+          src="./img/NASA-SPACE-APPS-e1601391131131.jpg"
+          alt="Imagem"
+        />
+        <img id="imagem-apod" src="" />
+        <p id="coment"></p>
       </form>
+      <div id="rodape">
+        <p>2021 © Todos os direitos reservados - NASA APOD - Hudson</p>
+      </div>
     </main>
-    <footer></footer>
-    <script src="./script.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="./script.js"></script>
   </body>
 </html>

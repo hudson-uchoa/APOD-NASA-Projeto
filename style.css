@@ -28,6 +28,9 @@ body {
   background-position: cover;
   background-size: 100%;
   background-repeat: round;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 header {
@@ -70,10 +73,66 @@ header {
 }
 
 main {
-  padding: 3%;
+  width: 100%;
+  height: 100%;
+  font-family: "Space Mono", monospace;
 }
 
-main h2 {
+.letras {
+  font-family: Nasalization;
+}
+
+main {
+  width: 100%;
+  height: 100%;
+}
+
+#about {
   text-align: center;
   color: white;
+  font-size: 20px;
+  padding: 7%;
+}
+
+#about input {
+  text-align: center;
+}
+
+#about h2 {
+  text-align: center;
+  color: white;
+}
+
+form {
+  text-align: center;
+  padding: 7%;
+}
+
+#titulo {
+  color: white;
+  font-family: "Space Mono", monospace;
+}
+
+#imagem {
+  width: 30%;
+}
+
+#imagem-apod {
+  width: 30%;
+}
+
+#coment {
+  color: white;
+  font-family: "Space Mono", monospace;
+}
+
+#rodape {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: #bebebeb7;
+  font-family: "Space Mono", monospace;
 }
