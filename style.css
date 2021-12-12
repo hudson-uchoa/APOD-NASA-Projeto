@@ -1,3 +1,18 @@
+@font-face {
+  font-family: "Nasalization";
+  src: url(./fontes/nasalization-rg.otf);
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
 body,
 html {
   height: 100%;
@@ -5,30 +20,60 @@ html {
   padding: 0px;
   margin: 0px;
   border: 0px;
+  box-sizing: border-box;
 }
 
 body {
-  background-image: url("https://starwalk.space/gallery/images/upcoming-celestial-events-summer-2021/1920x1080.jpg");
+  background-image: url(./gif/4K_UHD_25fps_FREE_Video_Background_Stars_Space_Trip.gif);
+  background-position: cover;
+  background-size: 100%;
+  background-repeat: round;
 }
 
 header {
-  padding-top: 1%;
-  text-align: center;
+  width: 100%;
   display: flex;
   justify-content: space-around;
-  background-color: #bebebe;
+  align-items: center;
+  box-sizing: border-box;
+  background-color: #bebebeb7;
+  font-family: "Space Mono", monospace;
 }
 
 #logo {
-  padding: 0%;
-  margin: 0%;
-  background-color: #ffff;
-  border-radius: 10px;
-  border: 3px solid;
-  border-color: #f5f5f5;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  font-family: Nasalization;
+  padding-left: 4%;
 }
 
-#naveg ul {
-  font-size: 23px;
+#logo img {
+  justify-content: center;
+  width: 5%;
+  height: 5%;
+}
+
+#lista {
+  width: 40%;
+}
+
+#lista ul {
+  display: flex;
+  justify-content: space-evenly;
   list-style: none;
+}
+
+#lista a {
+  color: black;
+  text-decoration: none;
+}
+
+main {
+  padding: 3%;
+}
+
+main h2 {
+  text-align: center;
+  color: white;
 }
