@@ -24,7 +24,7 @@ html {
 }
 
 body {
-  height: auto;
+  height: 100%;
   background-image: url(./gif/4K_UHD_25fps_FREE_Video_Background_Stars_Space_Trip.gif);
   background-position: cover;
   background-size: 100%;

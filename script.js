@@ -5,6 +5,7 @@ $("#enviar").click(function () {
     type: "GET",
     success: function (data) {
       console.log(data);
+      $("body").css("height", "auto");
       $("#titulo").text(data.title);
       $("#imagem").css("display", "none");
       $("#imagem-apod").attr("src", data.url);
@@ -19,6 +20,7 @@ $("#ftHoje").click(function () {
     type: "GET",
     success: function (data) {
       console.log(data);
+      $("body").css("height", "auto");
       $("#titulo").text(data.title);
       $("#imagem").css("display", "none");
       $("#imagem-apod").attr("src", data.url);
