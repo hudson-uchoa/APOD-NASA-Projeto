@@ -14,9 +14,8 @@ $("#enviar").click(function () {
 });
 
 $("#ftHoje").click(function () {
-  let fadd = $("#data").val();
   $.ajax({
-    url: `https://api.nasa.gov/planetary/apod?api_key=jc9sUQZK5upx2PqEy4xX3jKCmGYnNN40qRMACt1U&date=${fadd}`,
+    url: `https://api.nasa.gov/planetary/apod?api_key=jc9sUQZK5upx2PqEy4xX3jKCmGYnNN40qRMACt1U&`,
     type: "GET",
     success: function (data) {
       console.log(data);
