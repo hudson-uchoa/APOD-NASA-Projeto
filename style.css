@@ -24,6 +24,7 @@ html {
 }
 
 body {
+  height: auto;
   background-image: url(./gif/4K_UHD_25fps_FREE_Video_Background_Stars_Space_Trip.gif);
   background-position: cover;
   background-size: 100%;
@@ -31,7 +32,6 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 80%;
 }
 
 header {
