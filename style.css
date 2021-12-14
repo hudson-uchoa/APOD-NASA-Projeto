@@ -119,7 +119,7 @@ form {
 
 #titulo {
   color: white;
-  font-family: "Space Mono", monospace;
+  font-family: "Nimbus-Sans";
 }
 
 #imagem {
@@ -134,17 +134,28 @@ form {
 #coment {
   padding: 1%;
   color: white;
-  font-family: "Space Mono", monospace;
+  font-family: "Nimbus-Sans";
 }
 
 #rodape {
   display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
+  flex-direction: row;
+  justify-content: space-around;
   align-items: center;
   width: 100%;
-  height: 5%;
+  height: 7%;
   box-sizing: border-box;
   background-color: #bebebeb7;
-  font-family: "Space Mono", monospace;
+  font-family: "Nimbus-Sans";
+}
+
+#reservados {
+  display: flex;
+  justify-content: flex-end;
+  width: 60%;
+}
+
+#links {
+  justify-content: flex-end;
+  width: 20%;
 }
