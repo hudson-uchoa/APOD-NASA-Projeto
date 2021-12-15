@@ -1,2 +1,5 @@
 @media (max-width: 800px) {
+  #about {
+    font-size: 2rem;
+  }
 }
