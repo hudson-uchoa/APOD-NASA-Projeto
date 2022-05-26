@@ -21,6 +21,9 @@ $("#enviar").click(function () {
 
       $("#coment").text(data.explanation);
     },
+    error: function (erro) {
+      console.error(erro);
+    },
   });
 });
 
@@ -44,6 +47,9 @@ $("#ftHoje").click(function () {
       }
 
       $("#coment").text(data.explanation);
+    },
+    error: function (erro) {
+      console.error(erro);
     },
   });
 });
