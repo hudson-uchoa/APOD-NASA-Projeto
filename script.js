@@ -6,7 +6,6 @@ $("#enviar").click(function () {
     type: "GET",
     success: function (data) {
       console.log(data);
-      $("body").css("height", "auto");
       $("#titulo").text(data.title);
       $("#imagem").css("display", "none");
       if (data.media_type == "video") {

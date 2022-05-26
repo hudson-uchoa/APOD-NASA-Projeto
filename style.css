@@ -27,7 +27,6 @@ html {
 }
 
 body {
-  height: 100%;
   background-image: url(./gif/4K_UHD_25fps_FREE_Video_Background_Stars_Space_Trip.gif);
   background-position: cover;
   background-size: 100%;
@@ -78,6 +77,9 @@ header {
 }
 
 main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   width: 100%;
   height: 100%;
   font-family: "Nimbus-Sans";
@@ -109,6 +111,9 @@ main {
 }
 
 form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   text-align: center;
   padding-left: 7%;
   padding-right: 7%;
