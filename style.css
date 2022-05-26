@@ -1,11 +1,11 @@
 @font-face {
   font-family: "Nasalization";
-  src: url(./fontes/nasalization-rg.otf);
+  src: url(./fonts/nasalization-rg.otf);
 }
 
 @font-face {
   font-family: "Nimbus-Sans";
-  src: url(./fontes/Nimbus-Sans-D-OT-Light_32752.ttf);
+  src: url(./fonts/Nimbus-Sans-D-OT-Light_32752.ttf);
 }
 
 *,
@@ -126,6 +126,10 @@ form {
 #imagem-apod {
   padding: 1%;
   max-width: 60%;
+}
+
+#video {
+  display: none;
 }
 
 #coment {
